@@ -34,6 +34,7 @@ import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices'
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
+import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -56,6 +57,7 @@ ClassicEditor.builtinPlugins = [
 	ImageUpload,
 	Indent,
 	Link,
+	AutoLink,
 	List,
 	MediaEmbed,
 	Paragraph,
