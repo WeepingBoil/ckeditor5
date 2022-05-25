@@ -11,6 +11,9 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "@ckeditor/ckeditor5-horizontal-line": "^32.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^32.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^32.0.0",
     "ckeditor5": "^32.0.0",
     "lodash-es": "^4.17.15"
   },
