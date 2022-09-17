@@ -103,8 +103,8 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo',
-			'|',
-			'sourceEditing',
+			//	'|',
+			//	'sourceEditing',
 		],
 	},
 	image: {
@@ -123,10 +123,7 @@ ClassicEditor.defaultConfig = {
 	htmlSupport: {
 		allow: [
 			{
-				name: /.*/,
-				attributes: true,
 				classes: true,
-				styles: true,
 			},
 		],
 	},
