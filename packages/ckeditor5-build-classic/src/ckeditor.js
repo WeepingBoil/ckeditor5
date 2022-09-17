@@ -34,6 +34,8 @@ import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices'
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -64,6 +66,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	ImageResize,
+	GeneralHtmlSupport,
 ];
 
 // Editor configuration.
