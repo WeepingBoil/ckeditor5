@@ -2,7 +2,7 @@
  * @license Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
-//moo
+// moo
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
@@ -36,6 +36,7 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -70,10 +71,12 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	HorizontalLine,
 	RemoveFormat,
+	GeneralHtmlSupport,
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
+	plugins: [GeneralHtmlSupport],
 	toolbar: {
 		items: [
 			'heading',
