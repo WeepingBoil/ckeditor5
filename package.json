@@ -66,7 +66,6 @@
     "@ckeditor/ckeditor5-remove-format": "^34.1.0",
     "@ckeditor/ckeditor5-restricted-editing": "^34.1.0",
     "@ckeditor/ckeditor5-select-all": "^34.1.0",
-    "@ckeditor/ckeditor5-source-editing": "^34.1.0",
     "@ckeditor/ckeditor5-special-characters": "^34.1.0",
     "@ckeditor/ckeditor5-table": "^34.1.0",
     "@ckeditor/ckeditor5-theme-lark": "^34.1.0",

@@ -38,6 +38,8 @@ import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -72,6 +74,7 @@ ClassicEditor.builtinPlugins = [
 	HorizontalLine,
 	RemoveFormat,
 	GeneralHtmlSupport,
+	SourceEditing,
 ];
 
 // Editor configuration.
@@ -96,6 +99,8 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo',
+			'|',
+			'sourceEditing',
 		],
 	},
 	image: {
