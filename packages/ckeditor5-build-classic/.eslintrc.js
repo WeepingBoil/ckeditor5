@@ -9,6 +9,6 @@
 
 module.exports = {
 	rules: {
-		'ckeditor5-rules/ckeditor-imports': 'off'
-	}
+		'ckeditor5-rules/ckeditor-imports': 'off',
+	},
 };

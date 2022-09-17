@@ -10,22 +10,25 @@
 module.exports = {
 	extends: 'ckeditor5',
 	rules: {
-		'ckeditor5-rules/ckeditor-imports': 'error'
+		'ckeditor5-rules/ckeditor-imports': 'error',
+		'linebreak-style': 'off',
+		'comma-dangle': 'off',
+		'array-bracket-spacing': 'off',
 	},
 	overrides: [
 		{
-			files: [ '**/tests/**/*.js' ],
+			files: ['**/tests/**/*.js'],
 			rules: {
 				'no-unused-expressions': 'off',
 				'ckeditor5-rules/ckeditor-imports': 'off',
-				'ckeditor5-rules/no-cross-package-imports': 'off'
-			}
+				'ckeditor5-rules/no-cross-package-imports': 'off',
+			},
 		},
 		{
-			files: [ '**/docs/**/*.js' ],
+			files: ['**/docs/**/*.js'],
 			rules: {
-				'ckeditor5-rules/ckeditor-imports': 'off'
-			}
-		}
-	]
+				'ckeditor5-rules/ckeditor-imports': 'off',
+			},
+		},
+	],
 };
