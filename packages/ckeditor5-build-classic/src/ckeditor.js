@@ -44,6 +44,8 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
+console.debug('CKEditor LT');
+
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
